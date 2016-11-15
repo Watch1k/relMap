@@ -1,0 +1,58 @@
+extend includes/_layout
+block navToggle
+	- var headToggle = 'Карта'
+block title
+	title Search Results
+block content
+	//begin content
+	.content.content_main.js-content
+		.content__search-result По запросу “Медет” найдено 2 слоя, 2 объекта
+		//begin map-list
+		.map-list
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#' data-href='modal_more')
+						span.map-list__title-text Медет Хасанов
+				.map-list__subtitle
+					.map-list__color.filter__color(style='background-color: #f9c924')
+					.map-list__subtitle-text Представители нетрадиционных и деструктивных религиозных течений, а такж...
+				.map-list__desc Описание: ...таким образом, Медет прибыл в столицу для ...
+				a.map-list__map-link.map-link(href='#')
+					+i('mark-geo')
+					span.map-link__text показать на карте
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#' data-href='modal_more')
+						span.map-list__title-text Медет Габидуллин
+				.map-list__subtitle
+					.map-list__color.filter__color(style='background-color: #f9c924')
+					.map-list__subtitle-text Представители нетрадиционных и деструктивных религиозных течений, а такж...
+				.map-list__desc Описание: ...таким образом, Медет прибыл в столицу для ...
+				a.map-list__map-link.map-link(href='#')
+					+i('mark-geo')
+					span.map-link__text показать на карте
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#' data-href='modal_more')
+						span.map-list__title-text Медет Аканов
+				.map-list__subtitle
+					.map-list__color.filter__color(style='background-color: #24f6f9')
+					.map-list__subtitle-text Религиозные объединения, а также общественные объединения в сфере религии
+				.map-list__desc Описание: ...таким образом, Медет сдал тестирование по...
+				a.map-list__map-link.map-link(href='#')
+					+i('mark-geo')
+					span.map-link__text показать на карте
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#' data-href='modal_more')
+						span.map-list__title-text Медет Бегешев
+				.map-list__subtitle
+					.map-list__color.filter__color(style='background-color: #24f6f9')
+					.map-list__subtitle-text Религиозные объединения, а также общественные объединения в сфере религии
+				.map-list__desc Описание: ...таким образом, Медет прибыл в столицу для ...
+				a.map-list__map-link.map-link(href='#')
+					+i('mark-geo')
+					span.map-link__text показать на карте
+		//end map-list
+	//end content
+	include includes/_box

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Search Results</title>
+  <meta name="viewport" content="width=990, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <!-- theme color for android 5.0 -->
+  <meta name="theme-color" content="#fff">
+  <link rel="stylesheet" media="all" href="css/screen.css">
+  <!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header js-header">
+      <div class="header__container container">
+        <!-- begin logo-->
+        <div class="header__logo logo">
+          <a class="logo__link" href="index.html"><img class="logo__img" src="img/logo.png" alt="logo">
+            <div class="logo__text">
+              <div class="logo__title">информационно-аналитическая система</div>
+              <div class="logo__subtitle">Религиозная карта</div>
+            </div>
+          </a>
+        </div>
+        <!-- end logo-->
+        <!--begin user-->
+        <div class="header__user user">
+          <a class="user__image" href="#"><img class="user__img" src="img/content/user.jpg" alt="image"></a><a class="user__name" href="#">Кудайберген Жусупов</a></div>
+        <!--end user-->
+        <!-- begin main-nav-->
+        <nav class="header__nav nav"><a class="nav__link is-active" href="#" title="Карта">Карта</a><a class="nav__link" href="#" title="Оперативная обстановка">Оперативная обстановка</a><a class="nav__link" href="#" title="Справки">Справки</a><a class="nav__link" href="#" title="О программе">О программе</a>
+        </nav>
+        <!-- end main-nav-->
+        <form class="header__form" action="#">
+          <input class="header__form-input" type="text" placeholder="введите название или имя объекта">
+          <button class="header__form-submit" type="submit">
+              <svg class="icon icon-search">
+                <use xlink:href="img/sprite.svg#icon-search"></use>
+              </svg>
+            </button>
+        </form>
+      </div>
+    </header>
+    <main class="main">
+      <!--begin content-->
+      <div class="content content_main js-content">
+        <div class="content__search-result">По запросу “Медет” найдено 2 слоя, 2 объекта</div>
+        <!--begin map-list-->
+        <div class="map-list">
+          <div class="map-list__item">
+            <div class="map-list__title"><a class="map-list__title-link js-init-more" href="#" data-href="modal_more"><span class="map-list__title-text">Медет Хасанов</span></a></div>
+            <div class="map-list__subtitle">
+              <div class="map-list__color filter__color" style="background-color: #f9c924"></div>
+              <div class="map-list__subtitle-text">Представители нетрадиционных и деструктивных религиозных течений, а такж...</div>
+            </div>
+            <div class="map-list__desc">Описание: ...таким образом, Медет прибыл в столицу для ...</div>
+            <a class="map-list__map-link map-link" href="#">
+              <svg class="icon icon-mark-geo">
+                  <use xlink:href="img/sprite.svg#icon-mark-geo"></use>
+                </svg><span class="map-link__text">показать на карте</span></a>
+          </div>
+          <div class="map-list__item">
+            <div class="map-list__title"><a class="map-list__title-link js-init-more" href="#" data-href="modal_more"><span class="map-list__title-text">Медет Габидуллин</span></a></div>
+            <div class="map-list__subtitle">
+              <div class="map-list__color filter__color" style="background-color: #f9c924"></div>
+              <div class="map-list__subtitle-text">Представители нетрадиционных и деструктивных религиозных течений, а такж...</div>
+            </div>
+            <div class="map-list__desc">Описание: ...таким образом, Медет прибыл в столицу для ...</div>
+            <a class="map-list__map-link map-link" href="#">
+              <svg class="icon icon-mark-geo">
+                  <use xlink:href="img/sprite.svg#icon-mark-geo"></use>
+                </svg><span class="map-link__text">показать на карте</span></a>
+          </div>
+          <div class="map-list__item">
+            <div class="map-list__title"><a class="map-list__title-link js-init-more" href="#" data-href="modal_more"><span class="map-list__title-text">Медет Аканов</span></a></div>
+            <div class="map-list__subtitle">
+              <div class="map-list__color filter__color" style="background-color: #24f6f9"></div>
+              <div class="map-list__subtitle-text">Религиозные объединения, а также общественные объединения в сфере религии</div>
+            </div>
+            <div class="map-list__desc">Описание: ...таким образом, Медет сдал тестирование по...</div>
+            <a class="map-list__map-link map-link" href="#">
+              <svg class="icon icon-mark-geo">
+                  <use xlink:href="img/sprite.svg#icon-mark-geo"></use>
+                </svg><span class="map-link__text">показать на карте</span></a>
+          </div>
+          <div class="map-list__item">
+            <div class="map-list__title"><a class="map-list__title-link js-init-more" href="#" data-href="modal_more"><span class="map-list__title-text">Медет Бегешев</span></a></div>
+            <div class="map-list__subtitle">
+              <div class="map-list__color filter__color" style="background-color: #24f6f9"></div>
+              <div class="map-list__subtitle-text">Религиозные объединения, а также общественные объединения в сфере религии</div>
+            </div>
+            <div class="map-list__desc">Описание: ...таким образом, Медет прибыл в столицу для ...</div>
+            <a class="map-list__map-link map-link" href="#">
+              <svg class="icon icon-mark-geo">
+                  <use xlink:href="img/sprite.svg#icon-mark-geo"></use>
+                </svg><span class="map-link__text">показать на карте</span></a>
+          </div>
+        </div>
+        <!--end map-list-->
+      </div>
+      <!--end content-->
+      <!--begin box-->
+      <div class="box box_map js-box">
+        <div class="box__head js-box-head">
+          <div class="box__head-in">
+            <div class="box__head-row">
+              <div class="box__head-col">
+                <div class="box__head-info"><span class="box__head-number">49</span><span class="box__head-title">&nbsp;слоев</span></div>
+              </div>
+              <div class="box__head-col">
+                <svg class="icon icon-mark-geo">
+                    <use xlink:href="img/sprite.svg#icon-mark-geo"></use>
+                  </svg>
+              </div>
+              <div class="box__head-col">
+                <div class="box__head-info"><span class="box__head-number">1789</span><span class="box__head-title">&nbsp;объектов</span></div>
+              </div>
+            </div>
+            <div class="box__head-text">Все слои можно отображать и скрывать независимо друг от бруга</div>
+          </div>
+        </div>
+        <div class="box__content js-box-content">
+          <form class="filter js-form" action="#">
+            <div class="filter__row filter__row_head">
+              <div class="filter__row-left">
+                <input class="filter__check js-check-all" type="checkbox" id="filterCheck0">
+                <label class="filter__check-label filter__check-label_text" for="filterCheck0">Выбрать все слои</label>
+              </div>
+              <div class="filter__row-right">
+                <button class="filter__reset btn-blue js-form-reset" type="button">ОЧИСТИТЬ ФИЛЬТРЫ</button>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck1" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck1"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Административные здания и объекты центральных исполнительных государств</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #78adda"></div>
+                  <div class="filter__count">1257</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck1_1">
+                    <label class="filter__check-label" for="subFilterCheck1_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck1_2">
+                    <label class="filter__check-label" for="subFilterCheck1_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck1_3">
+                    <label class="filter__check-label" for="subFilterCheck1_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck2" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck2"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты Национального Банка РК, его филиалы и хранилища</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #e5c720"></div>
+                  <div class="filter__count">780</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck2_1">
+                    <label class="filter__check-label" for="subFilterCheck2_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck2_2">
+                    <label class="filter__check-label" for="subFilterCheck2_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck2_3">
+                    <label class="filter__check-label" for="subFilterCheck2_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck3" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck3"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты Республики Казахстан, охраняемые Службой государственн... охраны Республики Казахстан совместно с подразделениями органов внутренних дел, включенные в перечень, утверждаемый Президентом Республики Казахстан, а также объекты,
+                    имеющие важное государственное значение</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #ef9e50"></div>
+                  <div class="filter__count">590</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck3_1">
+                    <label class="filter__check-label" for="subFilterCheck3_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck3_2">
+                    <label class="filter__check-label" for="subFilterCheck3_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck3_3">
+                    <label class="filter__check-label" for="subFilterCheck3_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck4" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck4"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты с государственными материальными резервами</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #64c247"></div>
+                  <div class="filter__count">898</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck4_1">
+                    <label class="filter__check-label" for="subFilterCheck4_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck4_2">
+                    <label class="filter__check-label" for="subFilterCheck4_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck4_3">
+                    <label class="filter__check-label" for="subFilterCheck4_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck5" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck5"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Государственная организация по проведению стационарной судебно</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #b278da"></div>
+                  <div class="filter__count">1468</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck5_1">
+                    <label class="filter__check-label" for="subFilterCheck5_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck5_2">
+                    <label class="filter__check-label" for="subFilterCheck5_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck5_3">
+                    <label class="filter__check-label" for="subFilterCheck5_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck6" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck6"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты космической инфраструкту</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #4e975a"></div>
+                  <div class="filter__count">568</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck6_1">
+                    <label class="filter__check-label" for="subFilterCheck6_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck6_2">
+                    <label class="filter__check-label" for="subFilterCheck6_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck6_3">
+                    <label class="filter__check-label" for="subFilterCheck6_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck7" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck7"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты теплоснабжения - теплоэлектроцентрали</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #a38568"></div>
+                  <div class="filter__count">90</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck7_1">
+                    <label class="filter__check-label" for="subFilterCheck7_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck7_2">
+                    <label class="filter__check-label" for="subFilterCheck7_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck7_3">
+                    <label class="filter__check-label" for="subFilterCheck7_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck8" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck8"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты питьевого водоснабжения - водозаборные сооружения</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #47c2b2"></div>
+                  <div class="filter__count">1468</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck8_1">
+                    <label class="filter__check-label" for="subFilterCheck8_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck8_2">
+                    <label class="filter__check-label" for="subFilterCheck8_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck8_3">
+                    <label class="filter__check-label" for="subFilterCheck8_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter__row">
+              <div class="filter__row-visible">
+                <div class="filter__col">
+                  <div class="filter__icon">
+                    <svg class="icon icon-filter">
+                        <use xlink:href="img/sprite.svg#icon-filter"></use>
+                      </svg>
+                  </div>
+                </div>
+                <div class="filter__col">
+                  <input class="filter__check" type="checkbox" id="filterCheck9" data-checkbox="main">
+                  <label class="filter__check-label" for="filterCheck9"></label>
+                </div>
+                <div class="filter__col">
+                  <p class="filter__title">Объекты, связанные с добычей и переработкой топливно-энергетичес</p>
+                </div>
+                <div class="filter__col">
+                  <div class="filter__color" style="background-color: #58cd38"></div>
+                  <div class="filter__count">568</div>
+                </div>
+              </div>
+              <div class="filter__row-hidden">
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck9_1">
+                    <label class="filter__check-label" for="subFilterCheck9_1"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <div class="tags js-tags"></div>
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck9_2">
+                    <label class="filter__check-label" for="subFilterCheck9_2"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Район">
+                  </div>
+                </div>
+                <div class="filter__row2">
+                  <div class="filter__col2">
+                    <input class="filter__check" type="checkbox" id="subFilterCheck9_3">
+                    <label class="filter__check-label" for="subFilterCheck9_3"></label>
+                  </div>
+                  <div class="filter__col2">
+                    <input class="filter__input2" type="text" placeholder="Адрес">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--end box-->
+    </main>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

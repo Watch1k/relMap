@@ -1,0 +1,60 @@
+extend includes/_layout
+block navToggle
+	- var headToggle = 'Оперативная обстановка'
+block title
+	title Search Results
+block content
+	//begin content
+	.content.content_main.js-content
+		.content__search-result 135 отчетов
+		//begin map-list
+		.map-list
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#')
+						span.map-list__title-text Оперативная обстановка в г. Астана за 31 октября 2016 г.
+				.map-list__date 31. 10. 2016
+				.map-list__subtitle
+					.map-list__subtitle-text Оперативная обстановка в г. Астана является стабильной. Влияние негативных факторов за прошедшую неделю не зафиксировано. Ключевым событием отчетного периода стало празднование Курбан-Айта. Праздничные мероприятия...
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#')
+						span.map-list__title-text Оперативная обстановка в г. Астана за 24 октября 2016 г.
+				.map-list__date 23. 10. 2016
+				.map-list__subtitle
+					.map-list__subtitle-text Оперативная обстановка в г. Астана является удовлетворительно-стабильной. Среди значимых правонарушений обратило на себя внимание вооруженное нападение на заправочную станцию на проспекте Тлендиева. По предварительн...
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#')
+						span.map-list__title-text Оперативная обстановка в г. Астана за 13 октября 2016 г.
+				.map-list__date 13. 10. 2016
+				.map-list__subtitle
+					.map-list__subtitle-text Оперативная обстановка в г. Астана является стабильной. Влияние негативных факторов за прошедшую неделю не зафиксировано. Ключевым событием отчетного периода стало празднование Курбан-Айта. Праздничные мероприятия...
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#')
+						span.map-list__title-text Оперативная обстановка в г. Астана за 11 октября 2016 г.
+				.map-list__date 11. 10. 2016
+				.map-list__subtitle
+					.map-list__subtitle-text Оперативная обстановка в г. Астана является удовлетворительно-стабильной. Среди значимых правонарушений обратило на себя внимание вооруженное нападение на заправочную станцию на проспекте Тлендиева. По предварительн...
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#')
+						span.map-list__title-text Оперативная обстановка в г. Астана за 9 октября 2016 г.
+				.map-list__date 09. 10. 2016
+				.map-list__subtitle
+					.map-list__subtitle-text Оперативная обстановка в г. Астана является стабильной. Влияние негативных факторов за прошедшую неделю не зафиксировано. Ключевым событием отчетного периода стало празднование Курбан-Айта. Праздничные мероприятия...
+		//end map-list
+		//begin pagination
+		ul.content__pagination.pagination
+			li.pagination__item.is-active
+				a.pagination__link(href='#') 1
+			li.pagination__item
+				a.pagination__link(href='#') 2
+			li.pagination__item
+				a.pagination__link(href='#') ...
+			li.pagination__item
+				a.pagination__link(href='#') 19
+		//end pagination
+	//end content
+	include includes/_box2

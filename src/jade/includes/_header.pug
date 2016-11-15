@@ -1,0 +1,33 @@
+block navToggle
+	- var headToggle = ''
+-var headMenu = ['Карта', 'Оперативная обстановка', 'Справки', 'О программе']
+header.header.js-header
+	.header__container.container
+		// begin logo
+		.header__logo.logo
+			a.logo__link(href="index.html")
+				img.logo__img(src='img/logo.png' alt='logo')
+				.logo__text
+					.logo__title информационно-аналитическая система
+					.logo__subtitle Религиозная карта
+		// end logo
+		//begin user
+		.header__user.user
+			a.user__image(href='#')
+				img.user__img(src='img/content/user.jpg' alt='image')
+			a.user__name(href='#') Кудайберген Жусупов
+		//end user
+		// begin main-nav
+		nav.header__nav.nav
+			-var i = 0
+			each value in headMenu
+				if headToggle === value
+					a.nav__link.is-active(href='#' title=value)= value
+				else
+					a.nav__link(href='#' title=value)= value
+		// end main-nav
+		form.header__form(action='#')
+			input.header__form-input(type='text' placeholder='введите название или имя объекта')
+			button.header__form-submit(type='submit')
+				+i('search')
+

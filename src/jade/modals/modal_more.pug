@@ -1,0 +1,31 @@
+include ../includes/_mixins
+
+.modal-more.js-modal-more
+	.modal-more__in
+		button.modal-more__close.js-modal-more-close(type='button')
+			+i('close-original')
+		.modal-more__head
+			.modal-more__head-image
+				img.modal-more__head-img(src='../img/content/modal-image.jpg' alt='image')
+			.modal-more__head-content
+				.modal-more__head-title ИП Kvadra
+				a.modal-more__map-link.map-link(href='#')
+					+i('mark-geo')
+					span.map-link__text показать на карте
+		.modal-more__main
+			p.modal-more__label Адрес:
+			p.modal-more__value Астана, Алматинская р. а., ул. Янушкевича 2
+			p.modal-more__label Район:
+			p.modal-more__value Алматы
+			p.modal-more__label Руководитель (администратор):
+			p.modal-more__value Ускенбаев Булат Айтбаевич
+			p.modal-more__label Ответственный за обеспечение антитеррористической безопасности:
+			p.modal-more__value Сулубекова Айжан Жолдыбаевна
+			p.modal-more__label Контакты:
+			p.modal-more__value +7 7172 90 78 67, +7 777 899 56 45
+			p.modal-more__label Дата последней встречи с руководителем объекта в рамках разъяснительной работы о необходимости обеспечения обеспечения их антитеррористической защищенности:
+			p.modal-more__value 09. 10. 2016
+			p.modal-more__label Дата последней проверки объекта на предмет обеспечения антитеррористической защищенности:
+			p.modal-more__value 12. 09. 2016
+			p.modal-more__label Дополнительная информация:
+			p.modal-more__value Транспорт и складирование, хранение груза

@@ -1,0 +1,313 @@
+//begin box
+.box.box_map.js-box
+	.box__head.js-box-head
+		.box__head-in
+			.box__head-row
+				.box__head-col
+					.box__head-info
+						span.box__head-number 49
+						span.box__head-title &nbsp;слоев
+				.box__head-col
+					+i('mark-geo')
+				.box__head-col
+					.box__head-info
+						span.box__head-number 1789
+						span.box__head-title &nbsp;объектов
+			.box__head-text Все слои можно отображать и скрывать независимо друг от бруга
+	.box__content.js-box-content
+		form.filter.js-form(action='#')
+			.filter__row.filter__row_head
+				.filter__row-left
+					input.filter__check.js-check-all(type='checkbox' id='filterCheck0')
+					label.filter__check-label.filter__check-label_text(for='filterCheck0') Выбрать все слои
+				.filter__row-right
+					button.filter__reset.btn-blue.js-form-reset(type='button') ОЧИСТИТЬ ФИЛЬТРЫ
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck1' data-checkbox='main')
+						label.filter__check-label(for='filterCheck1')
+					.filter__col
+						p.filter__title Административные здания и объекты центральных исполнительных государств
+					.filter__col
+						.filter__color(style='background-color: #78adda')
+						.filter__count 1257
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck1_1')
+							label.filter__check-label(for='subFilterCheck1_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck1_2')
+							label.filter__check-label(for='subFilterCheck1_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck1_3')
+							label.filter__check-label(for='subFilterCheck1_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck2' data-checkbox='main')
+						label.filter__check-label(for='filterCheck2')
+					.filter__col
+						p.filter__title Объекты Национального Банка РК, его филиалы и хранилища
+					.filter__col
+						.filter__color(style='background-color: #e5c720')
+						.filter__count 780
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck2_1')
+							label.filter__check-label(for='subFilterCheck2_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck2_2')
+							label.filter__check-label(for='subFilterCheck2_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck2_3')
+							label.filter__check-label(for='subFilterCheck2_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck3' data-checkbox='main')
+						label.filter__check-label(for='filterCheck3')
+					.filter__col
+						p.filter__title Объекты Республики Казахстан, охраняемые Службой государственн... охраны Республики Казахстан совместно с подразделениями органов внутренних дел, включенные в перечень, утверждаемый Президентом Республики Казахстан, а также объекты, имеющие важное государственное значение
+					.filter__col
+						.filter__color(style='background-color: #ef9e50')
+						.filter__count 590
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck3_1')
+							label.filter__check-label(for='subFilterCheck3_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck3_2')
+							label.filter__check-label(for='subFilterCheck3_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck3_3')
+							label.filter__check-label(for='subFilterCheck3_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck4' data-checkbox='main')
+						label.filter__check-label(for='filterCheck4')
+					.filter__col
+						p.filter__title Объекты с государственными материальными резервами
+					.filter__col
+						.filter__color(style='background-color: #64c247')
+						.filter__count 898
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck4_1')
+							label.filter__check-label(for='subFilterCheck4_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck4_2')
+							label.filter__check-label(for='subFilterCheck4_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck4_3')
+							label.filter__check-label(for='subFilterCheck4_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck5' data-checkbox='main')
+						label.filter__check-label(for='filterCheck5')
+					.filter__col
+						p.filter__title Государственная организация по проведению стационарной судебно
+					.filter__col
+						.filter__color(style='background-color: #b278da')
+						.filter__count 1468
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck5_1')
+							label.filter__check-label(for='subFilterCheck5_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck5_2')
+							label.filter__check-label(for='subFilterCheck5_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck5_3')
+							label.filter__check-label(for='subFilterCheck5_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck6' data-checkbox='main')
+						label.filter__check-label(for='filterCheck6')
+					.filter__col
+						p.filter__title Объекты космической инфраструкту
+					.filter__col
+						.filter__color(style='background-color: #4e975a')
+						.filter__count 568
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck6_1')
+							label.filter__check-label(for='subFilterCheck6_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck6_2')
+							label.filter__check-label(for='subFilterCheck6_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck6_3')
+							label.filter__check-label(for='subFilterCheck6_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck7' data-checkbox='main')
+						label.filter__check-label(for='filterCheck7')
+					.filter__col
+						p.filter__title Объекты теплоснабжения - теплоэлектроцентрали
+					.filter__col
+						.filter__color(style='background-color: #a38568')
+						.filter__count 90
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck7_1')
+							label.filter__check-label(for='subFilterCheck7_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck7_2')
+							label.filter__check-label(for='subFilterCheck7_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck7_3')
+							label.filter__check-label(for='subFilterCheck7_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck8' data-checkbox='main')
+						label.filter__check-label(for='filterCheck8')
+					.filter__col
+						p.filter__title Объекты питьевого водоснабжения - водозаборные сооружения
+					.filter__col
+						.filter__color(style='background-color: #47c2b2')
+						.filter__count 1468
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck8_1')
+							label.filter__check-label(for='subFilterCheck8_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck8_2')
+							label.filter__check-label(for='subFilterCheck8_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck8_3')
+							label.filter__check-label(for='subFilterCheck8_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+			.filter__row
+				.filter__row-visible
+					.filter__col
+						.filter__icon
+							+i('filter')
+					.filter__col
+						input.filter__check(type='checkbox' id='filterCheck9' data-checkbox='main')
+						label.filter__check-label(for='filterCheck9')
+					.filter__col
+						p.filter__title Объекты, связанные с добычей и переработкой топливно-энергетичес
+					.filter__col
+						.filter__color(style='background-color: #58cd38')
+						.filter__count 568
+				.filter__row-hidden
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck9_1')
+							label.filter__check-label(for='subFilterCheck9_1')
+						.filter__col2
+							.tags.js-tags
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck9_2')
+							label.filter__check-label(for='subFilterCheck9_2')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Район')
+					.filter__row2
+						.filter__col2
+							input.filter__check(type='checkbox' id='subFilterCheck9_3')
+							label.filter__check-label(for='subFilterCheck9_3')
+						.filter__col2
+							input.filter__input2(type='text' placeholder='Адрес')
+//end box

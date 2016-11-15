@@ -1,0 +1,48 @@
+//begin box
+.box.box_map.box_rounded.js-box
+	.box__content.js-box-content
+		form.filter2.js-form2(action='#')
+			.filter2__section
+				.filter2__row
+					.filter2__row-left
+						.filter2__title-main Фильтр по дате:
+						input.filter__check.js-check-all(type='checkbox' id='filterCheck0')
+						label.filter__check-label.filter__check-label_text(for='filterCheck0') Выводить все
+					.filter2__row-right
+						button.filter__reset.btn-blue.js-form-reset(type='button') ОЧИСТИТЬ ФИЛЬТРЫ
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioDate' id='filterRadio1' checked='true')
+					label.filter2__radio-label(for='filterRadio1') За последнюю неделю
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioDate' id='filterRadio2')
+					label.filter2__radio-label(for='filterRadio2') За последний месяц
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioDate' id='filterRadio3')
+					label.filter2__radio-label(for='filterRadio3') За последний квартал
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioDate' id='filterRadio4')
+					label.filter2__radio-label(for='filterRadio4') За последниие полгода
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioDate' id='filterRadio5')
+					label.filter2__radio-label(for='filterRadio5') За определенный период:
+				.filter2__row.filter2__row_date
+					.filter2__row.date
+						.date__label с
+						.date__input-style
+							input.date__input.js-datepicker(type='text' placeholder='Выберите дату')
+							+i('calendar')
+					.filter2__row.date
+						.date__label по
+						.date__input-style
+							input.date__input.js-datepicker(type='text' placeholder='Выберите дату')
+							+i('calendar')
+			.filter2__section
+				.filter2__row
+					.filter2__title-main Фильтр по автору:
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioAuthor' id='filterRadio6' checked='true')
+					label.filter2__radio-label(for='filterRadio6') За последнюю неделю
+				.filter2__row
+					input.filter2__radio(type='radio' name='radioAuthor' id='filterRadio7')
+					label.filter2__radio-label(for='filterRadio7') За последний месяц
+//end box

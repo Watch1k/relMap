@@ -1,0 +1,22 @@
+include _mixins
+
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    block title
+      title Template
+    meta(name="viewport" content="width=990, initial-scale=1")
+    meta(name="format-detection" content="telephone=no")
+    <!-- theme color for android 5.0 -->
+    meta(name="theme-color" content="#fff")
+    block css
+      link(rel="stylesheet" media="all" href="css/screen.css")
+    <!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+  body
+    .wrapper
+      include _header
+      main.main
+        block content
+    block js
+      script(src="js/app.js")

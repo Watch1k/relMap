@@ -1,0 +1,108 @@
+extend includes/_layout
+block navToggle
+	- var headToggle = 'Карта'
+block title
+	title Index
+block content
+	//begin tabs-nav
+	.tabs-nav.js-tabs-nav
+		button.tabs-nav__item.is-active(type='button') Карта
+		button.tabs-nav__item(type='button') Список
+	//end tabs-nav
+	//begin tabs-for
+	.tabs-for.js-tabs-for
+		.tabs-for__item
+			.map
+				iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.2686766533288!2d24.907668716105977!3d60.15973088195706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a4e947eaa23%3A0xd77e29a934673d4e!2zVXR0ZXJow6RsbHNzdHJhbmRlbiAyLCAwMDE4MCBIZWxzaW5nZm9ycywg0KTRltC90LvRj9C90LTRltGP!5e0!3m2!1suk!2sua!4v1476664553819" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen)
+		.tabs-for__item
+			//begin content
+			.content.content_main
+				//begin map-list
+				.map-list
+					.map-list__item
+						.map-list__title
+							a.map-list__title-link(href='#')
+								span.map-list__title-number 1
+								span.map-list__title-text . ИП Kvadra
+						.map-list__subtitle
+							.map-list__color.filter__color(style='background-color: #78adda')
+							.map-list__subtitle-text Административные здания и объекты центральных исполнительных государств.
+						.map-list__desc Описание: ...таким образом, ИП Kvadra была основана в 2006 г. ...
+						a.map-list__map-link.map-link(href='#')
+							+i('mark-geo')
+							span.map-link__text показать на карте
+					.map-list__item
+						.map-list__title
+							a.map-list__title-link(href='#')
+								span.map-list__title-number 2
+								span.map-list__title-text . ИП “Зеленый квадрат”
+						.map-list__subtitle
+							.map-list__color.filter__color(style='background-color: #78adda')
+							.map-list__subtitle-text Административные здания и объекты центральных исполнительных государств.
+						.map-list__desc Описание: ...таким образом, ИП Kvadra была основана в 2006 г. ...
+						a.map-list__map-link.map-link(href='#')
+							+i('mark-geo')
+							span.map-link__text показать на карте
+					.map-list__item
+						.map-list__title
+							a.map-list__title-link(href='#')
+								span.map-list__title-number 3
+								span.map-list__title-text . ТОО Диана
+						.map-list__subtitle
+							.map-list__color.filter__color(style='background-color: #78adda')
+							.map-list__subtitle-text Административные здания и объекты центральных исполнительных государств.
+						.map-list__desc Описание: ...таким образом, ИП Kvadra была основана в 2006 г. ...
+						a.map-list__map-link.map-link(href='#')
+							+i('mark-geo')
+							span.map-link__text показать на карте
+					.map-list__item
+						.map-list__title
+							a.map-list__title-link(href='#')
+								span.map-list__title-number 4
+								span.map-list__title-text . ИП “Зеленый квадрат”
+						.map-list__subtitle
+							.map-list__color.filter__color(style='background-color: #78adda')
+							.map-list__subtitle-text Административные здания и объекты центральных исполнительных государств.
+						.map-list__desc Описание: ...таким образом, ИП Kvadra была основана в 2006 г. ...
+						a.map-list__map-link.map-link(href='#')
+							+i('mark-geo')
+							span.map-link__text показать на карте
+					.map-list__item
+						.map-list__title
+							a.map-list__title-link(href='#')
+								span.map-list__title-number 5
+								span.map-list__title-text . ИП “Зеленый квадрат”
+						.map-list__subtitle
+							.map-list__color.filter__color(style='background-color: #78adda')
+							.map-list__subtitle-text Административные здания и объекты центральных исполнительных государств.
+						.map-list__desc Описание: ...таким образом, ИП Kvadra была основана в 2006 г. ...
+						a.map-list__map-link.map-link(href='#')
+							+i('mark-geo')
+							span.map-link__text показать на карте
+					.map-list__item
+						.map-list__title
+							a.map-list__title-link(href='#')
+								span.map-list__title-number 6
+								span.map-list__title-text . ТОО Диана
+						.map-list__subtitle
+							.map-list__color.filter__color(style='background-color: #78adda')
+							.map-list__subtitle-text Административные здания и объекты центральных исполнительных государств.
+						.map-list__desc Описание: ...таким образом, ИП Kvadra была основана в 2006 г. ...
+						a.map-list__map-link.map-link(href='#')
+							+i('mark-geo')
+							span.map-link__text показать на карте
+				//end map-list
+				//begin pagination
+				ul.content__pagination.pagination
+					li.pagination__item.is-active
+						a.pagination__link(href='#') 1
+					li.pagination__item
+						a.pagination__link(href='#') 2
+					li.pagination__item
+						a.pagination__link(href='#') ...
+					li.pagination__item
+						a.pagination__link(href='#') 19
+				//end pagination
+			//end content
+	//end tabs-for
+	include includes/_box

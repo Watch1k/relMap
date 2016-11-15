@@ -1,0 +1,21 @@
+extend includes/_layout
+block navToggle
+	- var headToggle = 'Оперативная обстановка'
+block title
+	title Search Results
+block content
+	//begin content
+	.content.content_main.js-content
+		//begin map-list
+		.map-list.map-list_single
+			.map-list__item
+				.map-list__title
+					a.map-list__title-link.js-init-more(href='#')
+						span.map-list__title-text Оперативная обстановка в г. Астана за 31 октября 2016 г.
+				.map-list__date 31. 10. 2016
+				.map-list__subtitle
+					p.map-list__subtitle-text Оперативная обстановка в городе Астана является стабильной. Влияние негативных факторов за прошедшую неделю не зафиксировано.
+					p.map-list__subtitle-text Ключевым событием отчетного периода стало празднование Курбан-Айта. Праздничные мероприятия были проведены в условиях усиленного режима работы городскими правоохранительными и коммунальными службами. Это позволило избежать значительных инцидентов.
+					p.map-list__subtitle-text Среди значимых правонарушений обратило на себя внимание вооруженное нападение на заправочную станцию на проспекте Тлендиева. По предварительным данным, участие в нападении принимали представители деструктивных религиозных течений.
+	//end content
+	include includes/_box2

@@ -1,0 +1,35 @@
+extend includes/_layout
+block navToggle
+	- var headToggle = 'Карта'
+block title
+	title helper-1
+block content
+	.helper-1(style='margin-top: 50px; margin-left: 50px;')
+		.helper-1__in
+			.helper-1__head
+				.helper-1__head-image
+					img.helper-1__head-img(src='img/content/modal-image.jpg' alt='image')
+				.helper-1__head-content
+					.helper-1__head-title Республиканское государственное предприятие на праве хозяйственного ведения “Резерв” комитета по гос. материалам
+					a.helper-1__map-link.map-link.js-show-geo(href='#' data-width='55.717169' data-height='37.930262')
+						+i('mark-geo')
+						span.map-link__text показать координаты
+			.helper-1__main
+				p.helper-1__label Адрес:
+				p.helper-1__value Астана, Алматинская р. а., ул. Янушкевича 2
+				p.helper-1__label Район:
+				p.helper-1__value Алматы
+				p.helper-1__label Руководитель (администратор):
+				p.helper-1__value Ускенбаев Булат Айтбаевич
+				p.helper-1__label Ответственный за обеспечение антитеррористической безопасности:
+				p.helper-1__value Сулубекова Айжан Жолдыбаевна
+				p.helper-1__label Контакты:
+				p.helper-1__value +7 7172 90 78 67, +7 777 899 56 45
+				p.helper-1__label Дата последней встречи с руководителем объекта в рамках разъяснительной работы о необходимости обеспечения обеспечения их антитеррористической защищенности:
+				p.helper-1__value 09. 10. 2016
+				p.helper-1__label Дата последней проверки объекта на предмет обеспечения антитеррористической защищенности:
+				p.helper-1__value 12. 09. 2016
+				p.helper-1__label Дополнительная информация:
+				p.helper-1__value Транспорт и складирование, хранение груза
+				.text-center
+					a.helper-1__btn(href='#') Подробнее
