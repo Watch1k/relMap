@@ -135,8 +135,12 @@ img
 .tabs-for
 	position: relative
 	flex: 1
+	display: flex
+	flex-direction: column
 	&__item
-		height: 100%
+		flex: 1
+		display: flex
+		flex-direction: column
 		& + &
 			display: none
 			padding-top: 70px

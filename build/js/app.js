@@ -156,7 +156,7 @@ $(document).ready(function () {
 			tabsNav.removeClass('is-active');
 			$(this).addClass('is-active');
 			tabsItem.eq(_this.index() - 1).fadeOut('fast', function () {
-				tabsItem.eq(_this.index()).fadeIn('fast');
+				tabsItem.eq(_this.index()).fadeIn('fast').css('display', 'flex');
 			});
 		});
 
